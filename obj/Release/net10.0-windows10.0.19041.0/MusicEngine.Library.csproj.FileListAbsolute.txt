@@ -169,3 +169,4 @@ C:\Users\water\RiderProjects\MusicEngine.Library\obj\Release\net10.0-windows10.0
 C:\Users\water\RiderProjects\MusicEngine.Library\obj\Release\net10.0-windows10.0.19041.0\refint\MusicEngine.Library.dll
 C:\Users\water\RiderProjects\MusicEngine.Library\obj\Release\net10.0-windows10.0.19041.0\MusicEngine.Library.pdb
 C:\Users\water\RiderProjects\MusicEngine.Library\obj\Release\net10.0-windows10.0.19041.0\ref\MusicEngine.Library.dll
+C:\Users\water\RiderProjects\MusicEngine.Library\obj\Release\net10.0-windows10.0.19041.0\MusicEngine.Library.sourcelink.json
