@@ -1,6 +1,10 @@
 # MusicEngine.Library
 
-Community-driven instruments, presets, and tools that plug into MusicEngine.
+Community-driven instruments, presets, and tools that plug into [MusicEngine](https://github.com/watermann420/MusicEngine).
+
+Git note:
+- This folder can live as its own repo (recommended). Keep it next to `MusicEngine/` so the solution reference works.
+- Short description: Community library for MusicEngine: free, offline-friendly instruments, kits, and tools. Focused on easy script integration, no UI or network dependencies.
 
 Rules:
 - Free content only (no paid packs or license-walled assets).
