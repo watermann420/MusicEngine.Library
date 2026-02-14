@@ -5,11 +5,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+#if WINDOWS
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Media.SpeechSynthesis;
+#endif
 using MusicEngine.Core;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
-using Windows.Media.SpeechSynthesis;
 
 namespace MusicEngine.Instruments;
 
@@ -212,6 +214,7 @@ public sealed class SpeechInstrument : ISynth
 
     private SpeechSample? GenerateSampleWinTts(string text)
     {
+#if WINDOWS
         try
         {
             var synth = new SpeechSynthesizer();
@@ -246,6 +249,9 @@ public sealed class SpeechInstrument : ISynth
         {
             return null;
         }
+#else
+        return null;
+#endif
     }
 
     private SpeechSample? GenerateSampleOffline(string text, int note)
